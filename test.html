@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title>Hotel List</title>
+    <style>
+      div {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="hotelListings">
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $.ajax({
+        url: 'hotelList.json',
+        dataType: 'json',
+        type: 'get',
+        cache: false,
+        success: function(data) {
+          var hotelData = '';
+          $(data.results).each(function(index,value){
+            hotelData += '<div><p>Name: ' + value.data.name + '</p>' 
+            + '<p>Address: ' + value.data.address + '</p>'
+            + '<img src="' + value.data.thumb + '">'
+            +'<p>Rating: ' + value.data.rating + '</p>'
+            +'<p>Stars: ' + value.data.stars + '</p>'
+            +'<p>Number of Reviews: ' + value.data.reviewCount + '</p>'
+            +'<p>Additional Info: ' + value.data.roomInfo + '</p></div>'
+          });
+          $('#hotelListings').append(hotelData);
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,259 @@
+{
+	"amtOfResults": 9,
+	"results": [
+		{
+			"rawid": 20898,
+			"hid": "dh-20898",
+			"data": {
+				"name": "Delta Hotels by Marriott Montreal",
+				"address": "475 President Kennedy Ave., Montreal",
+				"thumb": "//images.travelnow.com/hotels/1000000/20000/10900/10859/17782548_d.jpg",
+				"rating": "",
+				"stars": 4,
+				"reviewCount": 0,
+				"type": "",
+				"beds": "",
+				"guests": "",
+				"roomInfo": "475 President Kennedy Ave., Montreal",
+				"isDH": true
+			},
+			"isInstantBook": true,
+			"latLng": [
+				45.50625,
+				-73.57079
+			],
+			"url": "http://fr.montrealenlumiere.stay22.com/Hotel/HotelRoomTypes.cfm?&hotelID=20898&IdTypeId=0&currency=USD&sc=Spectra&locale=fr_FR&NumRooms=1&inDate=02/26/18&outDate=03/06/18",
+			"prices": {
+				"nightly": 113.69,
+				"total": 1014.64
+			},
+			"zScore": 126
+		},
+		{
+			"rawid": 81766,
+			"hid": "dh-81766",
+			"data": {
+				"name": "L Appartement Hotel",
+				"address": "455 Sherbrooke West, Montreal",
+				"thumb": "https://i.travelapi.com/hotels/1000000/40000/37300/37250/37250_82_d.jpg",
+				"rating": "",
+				"stars": -1,
+				"reviewCount": 0,
+				"type": "",
+				"beds": "",
+				"guests": "",
+				"roomInfo": "455 Sherbrooke West, Montreal",
+				"isDH": true
+			},
+			"isInstantBook": true,
+			"latLng": [
+				45.50682,
+				-73.57226
+			],
+			"url": "http://fr.montrealenlumiere.stay22.com/Hotel/HotelRoomTypes.cfm?&hotelID=81766&IdTypeId=0&currency=USD&sc=Spectra&locale=fr_FR&NumRooms=1&inDate=02/26/18&outDate=03/06/18",
+			"prices": {
+				"nightly": 82.96,
+				"total": 740.32
+			},
+			"zScore": 121
+		},
+		{
+			"rawid": 81761,
+			"hid": "dh-81761",
+			"data": {
+				"name": "Le Square Phillips Hotel & Suites",
+				"address": "1193 Place Phillips, Montreal",
+				"thumb": "https://i.travelapi.com/hotels/1000000/900000/899600/899594/899594_94_d.jpg",
+				"rating": "",
+				"stars": -1,
+				"reviewCount": 0,
+				"type": "",
+				"beds": "",
+				"guests": "",
+				"roomInfo": "1193 Place Phillips, Montreal",
+				"isDH": true
+			},
+			"isInstantBook": true,
+			"latLng": [
+				45.50344,
+				-73.56731
+			],
+			"url": "http://fr.montrealenlumiere.stay22.com/Hotel/HotelRoomTypes.cfm?&hotelID=81761&IdTypeId=0&currency=USD&sc=Spectra&locale=fr_FR&NumRooms=1&inDate=02/26/18&outDate=03/06/18",
+			"prices": {
+				"nightly": 121.02,
+				"total": 1080.24
+			},
+			"zScore": 121
+		},
+		{
+			"rawid": 1394732,
+			"hid": "dh-1394732",
+			"data": {
+				"name": "Renaissance Montreal Downtown Hotel",
+				"address": "1250 Blvd. Robert Bourassa, Montreal",
+				"thumb": "https://i.travelapi.com/hotels/13000000/12360000/12358400/12358399/6f7f0f10_d.jpg",
+				"rating": "",
+				"stars": -1,
+				"reviewCount": 0,
+				"type": "",
+				"beds": "",
+				"guests": "",
+				"roomInfo": "1250 Blvd. Robert Bourassa, Montreal",
+				"isDH": true
+			},
+			"isInstantBook": true,
+			"latLng": [
+				45.50272,
+				-73.56901
+			],
+			"url": "http://fr.montrealenlumiere.stay22.com/Hotel/HotelRoomTypes.cfm?&hotelID=1394732&IdTypeId=0&currency=USD&sc=Spectra&locale=fr_FR&NumRooms=1&inDate=02/26/18&outDate=03/06/18",
+			"prices": {
+				"nightly": 146.93,
+				"total": 1311.44
+			},
+			"zScore": 121
+		},
+		{
+			"rawid": 42942,
+			"hid": "dh-42942",
+			"data": {
+				"name": "Intercontinental Montreal",
+				"address": "360 Saint Antoine St. Ouest, Montreal",
+				"thumb": "https://i.travelapi.com/hotels/1000000/20000/10100/10019/10019_449_d.jpg",
+				"rating": "",
+				"stars": -1,
+				"reviewCount": 0,
+				"type": "",
+				"beds": "",
+				"guests": "",
+				"roomInfo": "360 Saint Antoine St. Ouest, Montreal",
+				"isDH": true
+			},
+			"isInstantBook": true,
+			"latLng": [
+				45.503,
+				-73.56063
+			],
+			"url": "http://fr.montrealenlumiere.stay22.com/Hotel/HotelRoomTypes.cfm?&hotelID=42942&IdTypeId=0&currency=USD&sc=Spectra&locale=fr_FR&NumRooms=1&inDate=02/26/18&outDate=03/06/18",
+			"prices": {
+				"nightly": 145.23,
+				"total": 1161.84
+			},
+			"zScore": 121
+		},
+		{
+			"rawid": 36838,
+			"hid": "dh-36838",
+			"data": {
+				"name": "Hotel Bonaventure Montreal",
+				"address": "900 Rue De La Gauchetiere West, Montreal",
+				"thumb": "https://i.travelapi.com/hotels/1000000/520000/519700/519698/34e2f19e_d.jpg",
+				"rating": "",
+				"stars": -1,
+				"reviewCount": 0,
+				"type": "",
+				"beds": "",
+				"guests": "",
+				"roomInfo": "900 Rue De La Gauchetiere West, Montreal",
+				"isDH": true
+			},
+			"isInstantBook": true,
+			"latLng": [
+				45.49912,
+				-73.56639
+			],
+			"url": "http://fr.montrealenlumiere.stay22.com/Hotel/HotelRoomTypes.cfm?&hotelID=36838&IdTypeId=0&currency=USD&sc=Spectra&locale=fr_FR&NumRooms=1&inDate=02/26/18&outDate=03/06/18",
+			"prices": {
+				"nightly": 128.57,
+				"total": 1028.56
+			},
+			"zScore": 121
+		},
+		{
+			"rawid": 1177498,
+			"hid": "dh-1177498",
+			"data": {
+				"name": "Montreal Marriott Chateau Champlain",
+				"address": "1050 De La Gauchetiere West, Montreal",
+				"thumb": "https://i.travelapi.com/hotels/1000000/30000/27700/27637/27637_98_d.jpg",
+				"rating": "",
+				"stars": -1,
+				"reviewCount": 0,
+				"type": "",
+				"beds": "",
+				"guests": "",
+				"roomInfo": "1050 De La Gauchetiere West, Montreal",
+				"isDH": true
+			},
+			"isInstantBook": true,
+			"latLng": [
+				45.49789,
+				-73.56793
+			],
+			"url": "http://fr.montrealenlumiere.stay22.com/Hotel/HotelRoomTypes.cfm?&hotelID=1177498&IdTypeId=0&currency=USD&sc=Spectra&locale=fr_FR&NumRooms=1&inDate=02/26/18&outDate=03/06/18",
+			"prices": {
+				"nightly": 117.11,
+				"total": 1113.2
+			},
+			"zScore": 121
+		},
+		{
+			"rawid": 310865,
+			"hid": "dh-310865",
+			"data": {
+				"name": "Le Centre Sheraton Montreal Hotel",
+				"address": "1201 René Levesque West, Montreal",
+				"thumb": "//mobileimg.priceline.com/htlimg/65/65835/thumbnail-150.jpg",
+				"rating": "8.0",
+				"stars": 4,
+				"reviewCount": "99+",
+				"type": "",
+				"beds": "",
+				"guests": "",
+				"roomInfo": "1201 René Levesque West, Montreal",
+				"isDH": true
+			},
+			"isInstantBook": true,
+			"latLng": [
+				45.49772,
+				-73.57139
+			],
+			"url": "http://fr.montrealenlumiere.stay22.com/Hotel/HotelRoomTypes.cfm?&hotelID=310865&IdTypeId=0&currency=USD&sc=Spectra&locale=fr_FR&NumRooms=1&inDate=02/26/18&outDate=03/06/18",
+			"prices": {
+				"nightly": 124.43,
+				"total": 1110.56
+			},
+			"zScore": 134
+		},
+		{
+			"rawid": 13313,
+			"hid": "dh-13313",
+			"data": {
+				"name": "Hotel Le Crystal Montreal",
+				"address": "1100 Rue De La Montagne, Montreal",
+				"thumb": "//images.travelnow.com/hotels/2000000/1850000/1843300/1843252/9abbc9b5_d.jpg",
+				"rating": "",
+				"stars": 4.5,
+				"reviewCount": 0,
+				"type": "",
+				"beds": "",
+				"guests": "",
+				"roomInfo": "1100 Rue De La Montagne, Montreal",
+				"isDH": true
+			},
+			"isInstantBook": true,
+			"latLng": [
+				45.49675,
+				-73.57273
+			],
+			"url": "http://fr.montrealenlumiere.stay22.com/Hotel/HotelRoomTypes.cfm?&hotelID=13313&IdTypeId=0&currency=USD&sc=Spectra&locale=fr_FR&NumRooms=1&inDate=02/26/18&outDate=03/06/18",
+			"prices": {
+				"nightly": 174.61,
+				"total": 1651.92
+			},
+			"zScore": 127
+		}
+	],
+	"provider": "dhotels",
+	"status": 200
+}
