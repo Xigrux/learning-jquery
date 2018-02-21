@@ -66,7 +66,7 @@
 
           $(data.results).each(function(index,value){
             var identifier = index;
-
+            
             hotelData.push ( 
               '<div id="'+ identifier + '"><p>Name: ' + value.data.name + '</p>' 
               + '<p>Address: ' + value.data.address + '</p>'
@@ -76,29 +76,32 @@
               + '<p>Number of Reviews: ' + value.data.reviewCount + '</p>'
               + '<p>Additional Info: ' + value.data.roomInfo + '</p></div>'
             )
-
             pinLatLng = value.latLng
             var marker = L.marker(pinLatLng).addTo(mymap);
-            
-            $('.leaflet-marker-icon').click(function(){
-              while (terminator >= -1){
-                console.log ('this is your id ' + identifier);//returing multiple identifiers
-                hotelIndex = identifier;
-                console.log ('this is your hotel index' + hotelIndex);
-                return hotelIndex;
-                terminator = terminator-100;
-              }
-            });
-          });
 
-          
-          
+            $('.leaflet-marker-icon').one('click', function () { 
+              
+              console.log ('this is your id at TOP ==>  ' + identifier);
+              console.log ('this is your TOP hotel index==>  ' + hotelIndex);
+              while (terminator >= -1 ){
+                console.log ('this is your id: ' + identifier);//returing multiple identifiers
+                hotelIndex = identifier;
+                console.log ('this is your hotel index: ' + hotelIndex);
+                $('.modal-body').append(hotelData[hotelIndex]);
+                console.log ('this is your END4 hotel index' + hotelIndex);
+                terminator = terminator-100; 
+              };
+              console.log ('this is your id at END1==>  ' + identifier);
+              console.log ('this is your END1 hotel index==>  ' + hotelIndex);
+            });
+     
+          });
+        
+        
           $('.leaflet-marker-icon').attr({class:'leaflet-marker-icon leaflet-zoom-animated leaflet-interactive btn btn-primary', type:'button' }).attr("data-toggle", "modal").attr("data-target", "#exampleModalCenter");
           
-          $('#hotelListings').append(hotelData[hotelIndex]);
-          $('.modal-body').append(hotelData[hotelIndex]);
-          console.log ('this is your END hotel index' + hotelIndex);
-
+          // $('#hotelListings').append(hotelData[hotelIndex]);
+          
          
 
           // function onPinClick(e) {
