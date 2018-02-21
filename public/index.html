@@ -60,13 +60,15 @@
 
           var hotelData = [];
           var pinLatLng = [];
-          var hotelIndex = 2;//listen for click and check id
-
+          var hotelIndex = 0;//listen for click and check id
+          var terminator = -1;
+         
 
           $(data.results).each(function(index,value){
+            var identifier = index;
 
             hotelData.push ( 
-              '<div id="'+ index + '"><p>Name: ' + value.data.name + '</p>' 
+              '<div id="'+ identifier + '"><p>Name: ' + value.data.name + '</p>' 
               + '<p>Address: ' + value.data.address + '</p>'
               + '<img src="' + value.data.thumb + '">'
               + '<p>Rating: ' + value.data.rating + '</p>'
@@ -74,20 +76,30 @@
               + '<p>Number of Reviews: ' + value.data.reviewCount + '</p>'
               + '<p>Additional Info: ' + value.data.roomInfo + '</p></div>'
             )
-          });
 
-
-          $(data.results).each(function(index,value){
             pinLatLng = value.latLng
             var marker = L.marker(pinLatLng).addTo(mymap);
-            console.log('thisis the index'+index);
+            
+            $('.leaflet-marker-icon').click(function(){
+              while (terminator >= -1){
+                console.log ('this is your id ' + identifier);//returing multiple identifiers
+                hotelIndex = identifier;
+                console.log ('this is your hotel index' + hotelIndex);
+                return hotelIndex;
+                terminator = terminator-100;
+              }
+            });
           });
 
+          
+          
           $('.leaflet-marker-icon').attr({class:'leaflet-marker-icon leaflet-zoom-animated leaflet-interactive btn btn-primary', type:'button' }).attr("data-toggle", "modal").attr("data-target", "#exampleModalCenter");
           
           $('#hotelListings').append(hotelData[hotelIndex]);
           $('.modal-body').append(hotelData[hotelIndex]);
-          
+          console.log ('this is your END hotel index' + hotelIndex);
+
+         
 
           // function onPinClick(e) {
               
