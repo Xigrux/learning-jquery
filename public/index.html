@@ -58,31 +58,35 @@
         success: function(data) {
 
 
-          var hotelData = '';
-          var pinLatLng= [];
+          var hotelData = [];
+          var pinLatLng = [];
+          var hotelIndex = 2;//listen for click and check id
 
 
           $(data.results).each(function(index,value){
-            hotelData += '<div><p>Name: ' + value.data.name + '</p>' 
-            + '<p>Address: ' + value.data.address + '</p>'
-            + '<img src="' + value.data.thumb + '">'
-            + '<p>Rating: ' + value.data.rating + '</p>'
-            + '<p>Stars: ' + value.data.stars + '</p>'
-            + '<p>Number of Reviews: ' + value.data.reviewCount + '</p>'
-            + '<p>Additional Info: ' + value.data.roomInfo + '</p></div>'
+
+            hotelData.push ( 
+              '<div id="'+ index + '"><p>Name: ' + value.data.name + '</p>' 
+              + '<p>Address: ' + value.data.address + '</p>'
+              + '<img src="' + value.data.thumb + '">'
+              + '<p>Rating: ' + value.data.rating + '</p>'
+              + '<p>Stars: ' + value.data.stars + '</p>'
+              + '<p>Number of Reviews: ' + value.data.reviewCount + '</p>'
+              + '<p>Additional Info: ' + value.data.roomInfo + '</p></div>'
+            )
           });
 
 
           $(data.results).each(function(index,value){
             pinLatLng = value.latLng
-            console.log(pinLatLng);
             var marker = L.marker(pinLatLng).addTo(mymap);
+            console.log('thisis the index'+index);
           });
 
           $('.leaflet-marker-icon').attr({class:'leaflet-marker-icon leaflet-zoom-animated leaflet-interactive btn btn-primary', type:'button' }).attr("data-toggle", "modal").attr("data-target", "#exampleModalCenter");
-
-          $('#hotelListings').append(hotelData);
-          $('.modal-body').append(hotelData);
+          
+          $('#hotelListings').append(hotelData[hotelIndex]);
+          $('.modal-body').append(hotelData[hotelIndex]);
           
 
           // function onPinClick(e) {
